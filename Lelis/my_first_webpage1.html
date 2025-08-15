@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<center>
+	<title>My First Webpage</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is my first HTML page.">
+	<meta name="keywords" content="HTML, beginner web development">
+	<meta name="author" content="Juliana Lelis">
+	<style>
+		body { font-family: Arial, sans-serif; background-color: #d38eb0; }
+		h1 { color: #743556; }
+		p { line-height: 1.5; }
+		.highlight { background-color: #FFAC40; }
+	</style>
+	<script>
+		function greet() {
+			alert("Hello! Welcome to my page.");
+		}
+	</script>
+</head>
+<body onload="greet()">
+	<h1>Welcome to My First Webpage!</h1>
+	<p>This is a <b>bold</b> statement, and here are some <i>italic</i> text.</p>
+	<p class="highlight">This paragraph is highlighted using CSS.</p>
+</center>
+	<h2>My Favorite Fruits</h2>
+	<ul>
+		<li>Durian</li>
+		<li>Rambutan</li>
+		<li>Cacao</li>
+	</ul>
+
+	<h2>Steps to Make Tea</h2>
+	<ol>
+		<li>Boil water.</li>
+		<li>Add tea leaves.</li>
+		<li>Pour into a cup.</li>
+	</ol>
+	<!-- This is a comment: The above lists show unordered and ordered lists. -->
+
+	<p>Visit <a href="https://www.wikihow.com/Make-Tea" target="_blank">Example Website</a> for more info.</p>
+<center>
+    <h2>My Favorite Song</h2>
+	<audio controls>
+		<source src="C:\Users\ciscstudent\Desktop\Lelis\song.mp3.mp3" type="audio/mpeg">
+	 	Your browser does not support the audio element.
+	</audio>
+
+	<h2>My Favorite Music Video</h2>
+	<video width="1000" height="700" controls>
+		<source src="C:\Users\ciscstudent\Desktop\Lelis\video.mp4.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+
+	<h2>My Favorite Picture</h2>
+	<img src="C:\Users\ciscstudent\Desktop\Lelis\image.jpg.jpg" alt="A beautiful view" width="1000">
+	<div style="border:3px solid #db0995; padding:10px; margin-top:10px;">
+		<p>This is a block container using a <span style="color:rgb(82, 0, 57);"div</span> and <span style="font=weight:bold;">span</span> elements.</p>
+	</div>
+</center>
+
+	<h2>Class Schedule</h2>
+	<table border="1" cellpadding="5">
+		<tr>
+			<th>Day</th>
+			<th>Subject</th>
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td>HTML Basics</td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td>CSS Basics</td>
+		</tr>
+	</table>
+
+	<h2>Contact Me</h2>
+	<form>
+		<label for="name">Name: </label>
+		<input type="text" id="name" name="name"><br><br>
+
+		<label for="email">Email: </label>
+		<input type="email" id="email" name="email"><br><br>
+
+		<label for="message">Message: </label><br>
+		<textarea id="message" name="message"></textarea><br><br>
+
+		<input type="submit" value="Send">
+	</form>
+</body>
+</html>
